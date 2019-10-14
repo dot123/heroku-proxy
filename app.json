@@ -1,0 +1,8 @@
+{
+  "name": "Node Unblocker",
+  "description": "基于node-unblocker的通用web代理",
+  "image": "heroku/nodejs",
+  "repository": "https://github.com/dot123/heroku-proxy",
+  "keywords": ["node-noblocker", "dot123"],
+  "website": "https://github.com/dot123"
+}
