@@ -71,6 +71,7 @@ app.use('/', express.static(__dirname + '/public'));
 app.get("/no-js", function(req, res) {
     // grab the "url" parameter from the querystring
     var site = querystring.parse(url.parse(req.url).query).url;
+    site = "www.google.com/search?q=" + site;
     // and redirect the user to /proxy/url
     res.redirect(unblockerConfig.prefix + site);
 });
